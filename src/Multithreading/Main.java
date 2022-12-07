@@ -1,7 +1,5 @@
 package Multithreading;
 
-import java.security.spec.RSAOtherPrimeInfo;
-
 public class Main {
     public static void main(String[] args) throws InterruptedException {
 //        System.out.println("Hello World");
@@ -11,13 +9,13 @@ public class Main {
 //        MyThread myThread2 = new MyThread();
 //        myThread2.start();
 
-        Thread thread = new Thread(new Runner());
+        Thread thread = new Thread(new Runnerr());
         thread.start();
         System.out.println("sadfgsdfgsdfgdsfg");
     }
 }
 
-class Runner implements Runnable{
+class Runnerr implements Runnable{
 
     @Override
     public void run() {
